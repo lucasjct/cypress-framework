@@ -10,7 +10,7 @@ describe ("Resource Google", () => {
 
     })
 
-    it('Get name and open new window', () => {
+    it ('Get name and open new window', () => {
     cy.get(".gLFyf.gsfi").type("Lucas José Carvalho Teixeira")
     cy.get(".gLFyf").type('{enter}')
     cy.contains('Lucas José Carvalho Teixeira | Escavador').click({force:true})
