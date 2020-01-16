@@ -33,14 +33,18 @@ describe ('Istagram interation', () => {
 
     it("Login and enter in Instagram", () => {
 
-      cy.get('.HmktE').within(($form) => {
+      cy.get('form').within(($form) => {
         cy.get('input[name="username"]').type('lucasjcteixeira@gmail.com')
         cy.get('input[name="password"]').type('1a2s3d1989')
         cy.root().submit()
+
         cy.wait(3000)
+        
+        //alert("Finish, success! :)")
       })
     })
   })
+
 
 //tomorrow see: https://medium.com/@alexalvess/testes-e2e-com-cypress-d1f6bc415b5d
 // and https://medium.com/trainingcenter/testes-e2e-no-javascript-com-cypress-io-c4202c24f82b
