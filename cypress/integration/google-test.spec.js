@@ -1,6 +1,6 @@
 describe ("Resource Google", () => {
 
-    beforeEach(()=> {
+    beforeEach(() => {
         cy.visit('https://www.google.com')
     }),
 
