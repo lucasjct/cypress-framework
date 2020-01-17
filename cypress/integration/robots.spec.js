@@ -5,7 +5,6 @@ beforeEach ( function () {
     cy.wait(4000)
 })
 
-
     it('Contain robots?', () => {
         cy.title()
           .should('contain','Saraiva.com.br: Livros, Tablets, Blu-Ray, Eletrônicos, Notebooks, Smartphones e mais.')
