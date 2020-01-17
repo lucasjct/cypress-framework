@@ -10,7 +10,7 @@ describe ('Istagram interation', () => {
     cy.wait(3000) 
   })
 
-  it ("Fill Form Instagrm", () => {
+  it("Fill Form Instagrm", () => {
 
     cy.get('form').within(($form) => {
         // you have access to the found form via
@@ -30,7 +30,6 @@ describe ('Istagram interation', () => {
   it("Click to make login", () => {
 
     cy.contains('Log in').click({force:true}) //cordenadas 
-    cy.visit("https://www.instagram.com/accounts/login/?source=auth_switcher")
   })
 
   it("Login and enter in Instagram", () => {
@@ -45,5 +44,5 @@ describe ('Istagram interation', () => {
     })
   })
 })
-//tomorrow see: https://medium.com/@alexalvess/testes-e2e-com-cypress-d1f6bc415b5d
-// and https://medium.com/trainingcenter/testes-e2e-no-javascript-com-cypress-io-c4202c24f82b
+//see: https://medium.com/@alexalvess/testes-e2e-com-cypress-d1f6bc415b5d
+//and: https://medium.com/trainingcenter/testes-e2e-no-javascript-com-cypress-io-c4202c24f82b
