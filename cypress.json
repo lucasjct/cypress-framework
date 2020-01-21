@@ -2,6 +2,6 @@
     "fixturesFolder": false,
     "pluginsFile": false,
     "chromeWebSecurity": false,
-    "watchForFileChanges": false
+    "watchForFileChanges": true
     
   }
