@@ -1,2 +1,0 @@
-# cypress-framework
-Learning Cypress
