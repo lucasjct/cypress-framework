@@ -1,0 +1,25 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "automation of tests",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.8.2"
+  },
+  "scripts": {
+    "test": "test",
+    "cy:run": "cypress:run",
+    "cypress:open": "cypress:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasjct/cypress-framework.git"
+  },
+  "author": "lucasjct",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasjct/cypress-framework/issues"
+  },
+  "homepage": "https://github.com/lucasjct/cypress-framework#readme"
+}
