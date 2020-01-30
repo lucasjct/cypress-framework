@@ -9,8 +9,8 @@
   },
   "scripts": {
     "test": "test",
-    "cy:run": "cypress:run",
-    "cypress:open": "cypress:open"
+    "cypress:run": "cypress run",
+    "cypress:open":"cypress open"
   },
   "repository": {
     "type": "git",
