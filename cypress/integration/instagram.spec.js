@@ -44,5 +44,5 @@ describe ('Istagram interation', () => {
     })
   })
 })
-//see: https://medium.com/@alexalvess/testes-e2e-com-cypress-d1f6bc415b5d
+//see more: https://medium.com/@alexalvess/testes-e2e-com-cypress-d1f6bc415b5d
 //and: https://medium.com/trainingcenter/testes-e2e-no-javascript-com-cypress-io-c4202c24f82b

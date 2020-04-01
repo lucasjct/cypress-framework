@@ -32,5 +32,4 @@ beforeEach ( function () {
 
     //it("Contains Google Ads?",() =>{
 
-    //   cy.get(".c imageholder")
-   // })
+    //   cy.get(".c imageholder") 
