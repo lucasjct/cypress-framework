@@ -29,7 +29,5 @@ beforeEach ( function () {
 
         cy.get('script[src="https://www.google-analytics.com/analytics.js"]')
     })
-
-    //it("Contains Google Ads?",() =>{
-
-    //   cy.get(".c imageholder") 
+        }   
+)
