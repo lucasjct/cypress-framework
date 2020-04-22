@@ -5,12 +5,12 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "cypress": "^3.8.2"
+    "cypress": "^4.4.1"
   },
   "scripts": {
     "test": "test",
     "cypress:run": "cypress run",
-    "cypress:open":"cypress open"
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",

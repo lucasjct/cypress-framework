@@ -1,20 +1,23 @@
+/// <reference types="Cypress" />
+
+import googlePageObject  from "./pageObject/googlePageObject";
+
+
 describe ("Resource Google", () => {
 
-    beforeEach(() => {
-        cy.visit('https://www.google.com')
-    }),
+    it("valid login test", function(){
 
-    it ('contain "Google"', () => {
-        cy.title()
-          .should('contain', 'Google')
+        const test=new googlePageObject()
+        
+        test.visit()
+        test.search('Lucas José Carvalho Teixeira')
+        test.submit()
+        cy.contains('Lucas José Carvalho Teixeira | Escavador').click({force:true})
 
-    })
+    it('Other Page - resulted', function() {
 
-    it ('Get name and open new window', () => {
-        cy.get(".gLFyf.gsfi").type("Lucas José Carvalho Teixeira")
-        cy.get(".gLFyf").type('{enter}')
-        cy.contains('Lucas José Carvalho Teixeira | Escavador').click({force:true}) // quebrar campos campos obrigatórios e inserir dados.
-        cy.get('.user-box.-left.-huge.-rel.-adsBottom').contains('UFSC')
+        test.otherPage().contains('UFSC')
 
+        })
     })
  })
