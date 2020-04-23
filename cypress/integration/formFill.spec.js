@@ -10,7 +10,7 @@ describe ('Fill Form', function() {
       form.visit()
       form.fillName('Teste')
       form.fillLastName('Cypress')
-      form.fillEmail('test@1q2w33.com.br')
+      form.fillEmail()
       form.fillAndress('Rua teste cypress')
       form.fillUniversity('Cypress University')
       form.fillProfile('Quality Assurance')

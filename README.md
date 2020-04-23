@@ -1,6 +1,6 @@
 # cypress-framework
 
-## How to install
+## How to install Cypress
 
 1. `npm init`
 2. `npm install cypress --sev-dev`
@@ -11,6 +11,11 @@
     "cypress:open": "cypress open"
   }
 }
+
+4. To run: npm run cypress:open
+
+## How to install and run thats project
 ```
-4. To run: `npm run cypress: open`
-5. Create test files in the test folder.
+1. Git Clone <project link>
+2. npm install
+3. npm run cypress:open

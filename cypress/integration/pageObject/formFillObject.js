@@ -27,13 +27,15 @@ class formFill {
         return this
     }
 
-    fillEmail(value)
+    fillEmail()
     
 
     {
         const field=cy.get('#user_email')
         field.clear()
-        field.type(value)
+        var mail = Math.random().toString(36)
+        var andress = '@gmail.com.br'
+        field.type(mail.concat(andress))
         return this
     }
 
