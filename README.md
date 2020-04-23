@@ -4,7 +4,7 @@
 
 1. `npm init`
 2. `npm install cypress --sev-dev`
-3. Configure the *pakage.json* script property to: 
+3. Configure the *pakage.json* with: 
 ```js
 {
   "scripts": {
@@ -12,10 +12,12 @@
   }
 }
 
-4. To run: npm run cypress:open
+```
+4. To run: `npm run cypress:open`
+
 
 ## How to install and run thats project
-```
-1. Git Clone <project link>
-2. npm install
-3. npm run cypress:open
+
+1. `Git Clone <Acesse option: Clone or Download>`
+2. `npm install`
+3. `npm run cypress:open`
