@@ -1,4 +1,4 @@
-# cypress-framework
+# Some test samples with Cypress
 
 ## How to install Cypress
 
@@ -15,9 +15,9 @@
 ```
 4. To run: `npm run cypress:open`
 
-
 ## How to install and run thats project
 
-1. `Git Clone <Acesse option: Clone or Download>`
+
+1. `Git Clone <Access option: Clone or Download>`
 2. `npm install`
 3. `npm run cypress:open`
