@@ -1,36 +1,34 @@
 /// <reference types="Cypress" />
 
-class googlePageObject {
+export class GooglePageObject {
 
     visit()
 
     {
-        cy.visit('https://www.google.com')
+        cy.visit('https://www.google.com');
     }
 
-    search (value)
+    search(value)
     {
-        const field=cy.get(".gLFyf.gsfi")
-        field.clear()
-        field.type(value)
-        return this
+        const field = cy.get(".gLFyf.gsfi");
+        field.clear();
+        field.type(value);
+        return this;
 
     }
 
     submit()
     {
-        const button=cy.contains('Pesquisa')
-        button.click({force: true})
+        const button = cy.contains('Pesquisa');
+        button.click({force: true});
     }
 
     otherPage(value)
     {
-        const field=cy.get('.user-box.-left.-huge.-rel.-adsBottom')
-        field.clear()
-        field.type(value)
-        return this
+        const field = cy.get('.user-box.-left.-huge.-rel.-adsBottom');
+        field.clear();
+        field.type(value);
+        return this;
     }
   
 }
-
-export default googlePageObject
